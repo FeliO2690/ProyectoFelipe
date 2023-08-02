@@ -20,6 +20,7 @@ import javax.swing.Timer;
  *
  * @author felip
  */
+//Hola
 public class BoxMetodos {
      public void opc11() {
         ComboBox menu = new ComboBox();

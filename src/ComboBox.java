@@ -4,8 +4,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ComboBox extends JFrame {
-
-    private JFrame ventanaMonedas = new JFrame();
+    //Hola Mundo
+     private JFrame ventanaMonedas = new JFrame();
     private JFrame ventanaTemperaturas = new JFrame();
     private JComboBox<String> conversion;
     private JComboBox<String> monedasConversor;
@@ -23,7 +23,7 @@ public class ComboBox extends JFrame {
         JPanel panel = new JPanel();
         mostrarmenuPrincipal();
         panel.add(conversion);
-        add(panel);
+        add(panel); 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
